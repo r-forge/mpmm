@@ -1,0 +1,11 @@
+Package: mpmm
+Type: Package
+Title: Marginal Product Mixture Model for Relational Event Data
+Version: 0.1
+Date: 2010-11-03
+Author: Christopher DuBois
+Maintainer: Christopher DuBois <duboisc@ics.uci.edu>
+Description: This package implements the Marginal Product Mixture Model (MPMM) for relational event data.  Inference for the model is implemented via a collapsed Gibbs sampler written in C.  Utility functions for processing sets of relational events, displaying posterior predictive distributions, and fitting baseline models are also included.
+License: GPL
+LazyLoad: yes
+Depends: ggplot2
